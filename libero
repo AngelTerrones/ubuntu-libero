@@ -1,0 +1,7 @@
+LM_LICENSE_FILE=1702@localhost; export LM_LICENSE_FILE
+SNPSLMD_LICENSE_FILE=1702@localhost; export SNPSLMD_LICENSE_FILE
+
+LD_LIBRARY_PATH=/usr/lib/i386-linux-gnu/:/usr/lib:/lib
+export LD_LIBRARY_PATH
+/opt/microsemi/Linux_Licensing_Daemon/lmgrd -c /opt/microsemi/License.dat -l license.log
+/opt/microsemi/Libero_SoC_v11.9/Libero/bin/libero
